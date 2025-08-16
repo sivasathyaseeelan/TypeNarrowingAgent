@@ -42,3 +42,35 @@ tmp/
 
 # Sensitive information (e.g., local settings)
 local_settings.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Testing
+.pytest_cache/
+coverage/
+*.cov
+*.xml
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Poetry
+poetry.lock

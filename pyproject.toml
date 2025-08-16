@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "agent"
+version = "0.1.0"
+description = "A CLI tool to analyze Python and TypeScript codebases for vulnerable predicate functions, prioritizing TypeGuard and type predicates."
+authors = ["Siva Sathyaseelan D N <dnsiva.sathyaseelan.chy21@iitbhu.ac.in>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "agent"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+groq = "^0.11.0"
+gitpython = "^3.1.43"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+agent = "agent.cli:main"
