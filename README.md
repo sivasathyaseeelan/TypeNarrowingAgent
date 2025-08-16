@@ -42,7 +42,7 @@ poetry run agent --repo-url https://github.com/openai/openai-python.git --file-p
 
 Analyze a local file:
 ```bash
-poetry run agent --file-path ./agent/cli.py
+poetry run agent --file-path /path/to/local/file.py
 ```
 
 
