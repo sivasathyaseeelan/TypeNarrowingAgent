@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "agent"
+name = "TypeNarrowingAgent"
 version = "0.1.0"
 description = "A CLI tool to analyze Python and TypeScript codebases for vulnerable predicate functions, prioritizing TypeGuard and type predicates."
 authors = ["Siva Sathyaseelan D N <dnsiva.sathyaseelan.chy21@iitbhu.ac.in>"]
