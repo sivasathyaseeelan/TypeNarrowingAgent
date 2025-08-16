@@ -64,7 +64,7 @@ The tool outputs a JSON report, prioritizing vulnerabilities in Python TypeGuard
 }
 ```
 
-##Development
+## Development
 Run tests (once implemented):
 ```bash
 poetry run pytest
