@@ -6,7 +6,7 @@ A CLI tool to analyze Python and TypeScript codebases for vulnerable predicate f
 
 Clone the repository:
 ```bash
-git clone https://github.com/sivasathyaseeelan/TypeNarrowingAgent.git
+git clone https://github.com/utahplt/TypeNarrowingAgent.git
 cd TypeNarrowingAgent
 ```
 
